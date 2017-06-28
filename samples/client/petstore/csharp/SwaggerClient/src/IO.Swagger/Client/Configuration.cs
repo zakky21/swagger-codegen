@@ -50,7 +50,7 @@ namespace IO.Swagger.Client
                              string userAgent = "Swagger-Codegen/1.0.0/csharp"
                             )
         {
-            log.Trace("Configuration ctor")
+            log.Trace("Configuration ctor");
             setApiClientUsingDefault(apiClient);
 
             Username = username;

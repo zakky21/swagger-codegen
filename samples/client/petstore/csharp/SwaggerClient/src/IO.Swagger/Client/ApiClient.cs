@@ -200,7 +200,7 @@ namespace IO.Swagger.Client
             log.Debug(string.Format("RestClient timeout: {0}",RestClient.Timeout));
             // set user agent
             RestClient.UserAgent = Configuration.UserAgent;
-            log.Debug("UserAgent: "+ RestClient.UserAgent;
+            log.Debug("UserAgent: "+ RestClient.UserAgent);
 
             InterceptRequest(request);
             log.Debug("Executing request");
